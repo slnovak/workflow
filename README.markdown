@@ -392,7 +392,7 @@ Then you define your different classes:
 ### Individual workflows for objects
 
 Another solution would be to connect different workflows to object
-instances via metaclass, e.g.
+instances via a singleton class, e.g.
 
     # Load an object from the database
     booking = Booking.find(1234)
